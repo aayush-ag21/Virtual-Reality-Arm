@@ -7,4 +7,4 @@ This project targets helping people with partial paralysis by regular physiother
 
 The architecture of the projects is as follows, two sensor tags are places at the elbow and shoulder sending their Gyrosensor data to another SensorTag over Zigbee. The reciever sensortag is connected to a RaspberryPi over USB and acts like a Zigbee Dongle. Further this aggregated data is sent from Raspberry Pi to the server over UDP which is then forwarded to Unity. Unity uses these Gyro readings to actuate the 3D model Arm.
 
-![Live Demo](https://github.com/aayush-ag21/Virtual-Reality-Arm/blob/master/Live_demo_still.jpeg)
+<img src="https://github.com/aayush-ag21/Virtual-Reality-Arm/blob/master/Live_demo_still.jpeg" width="500px" height="850px" />
